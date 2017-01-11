@@ -27,7 +27,7 @@ const API_KEY = '';
 
 $content = [
     'name' => '',                       // The uploaded torrent's title
-    'torrent_file' => 'C:\a.torrent',   // The full path to the torrent file (must have @ before)
+    'torrent_file' => 'C:\a.torrent',   // The full path to the torrent file
     'category_id' => 39,                // The category ID
 ];
 
