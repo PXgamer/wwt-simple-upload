@@ -6,7 +6,7 @@ class MainTest extends PHPUnit_Framework_TestCase
 {
     public function testCanBeInitialised()
     {
-        $upload = new WorldWideTorrents\Upload();
-        $this->assertInstanceOf(WorldWideTorrents\Upload::class, $upload);
+        $uploader = new WorldWideTorrents\Uploader();
+        $this->assertInstanceOf(WorldWideTorrents\Uploader::class, $uploader);
     }
 }
