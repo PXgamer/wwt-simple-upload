@@ -2,24 +2,7 @@
   "name": "pxgamer/wwt-simple-upload",
   "type": "library",
   "description": "A (really easy to use) uploader for WorldWideTorrents written in PHP.",
-  "homepage": "https://github.com/PXgamer/wwt-simple-upload",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "PXgamer",
-      "email": "owzie123@gmail.com",
-      "role": "Developer"
-    }
-  ],
-  "support": {
-    "issues": "https://github.com/PXgamer/wwt-simple-upload/issues"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/PXgamer/wwt-simple-upload"
-    }
-  ],
   "require": {
     "php": ">=5.5.0",
     "ext-curl": "*"
