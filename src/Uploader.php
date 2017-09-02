@@ -8,7 +8,7 @@ namespace pxgamer\WorldWideTorrents;
  */
 class Uploader
 {
-    const BASE_URL = 'https://worldwidetorrents.eu/api';
+    const BASE_URL = 'https://worldwidetorrents.me/api';
 
     /**
      * @param string $api_key
