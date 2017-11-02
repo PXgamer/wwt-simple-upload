@@ -39,8 +39,6 @@ class Uploader
             [
                 CURLOPT_URL => self::BASE_URL.'/account/upload/',
                 CURLOPT_HTTPHEADER => $headers,
-                CURLOPT_SSL_VERIFYHOST => 0,
-                CURLOPT_SSL_VERIFYPEER => 0,
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_POST => true,
                 CURLOPT_POSTFIELDS => $content_data,
