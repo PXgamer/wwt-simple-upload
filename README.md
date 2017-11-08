@@ -28,7 +28,7 @@ $ composer require pxgamer/wwt-simple-upload
 ## Usage
 
 ```php
-use \pxgamer\WorldWideTorrents\Uploader;
+use pxgamer\WorldWideTorrents\Uploader;
 
 const API_KEY = '';
 
