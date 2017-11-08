@@ -4,7 +4,6 @@ namespace pxgamer\WorldWideTorrents;
 
 /**
  * Class Uploader
- * Package pxgamer\WorldWideTorrents.
  */
 class Uploader
 {
