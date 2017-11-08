@@ -30,15 +30,15 @@ $ composer require pxgamer/wwt-simple-upload
 ```php
 use pxgamer\WorldWideTorrents\Uploader;
 
-const API_KEY = '';
+$apiKey = getenv('WWT_API_KEY');
 
 $content = [
-    'name' => '',                       // The uploaded torrent's title
+    'name'         => '',               // The uploaded torrent's title
     'torrent_file' => 'C:\a.torrent',   // The full path to the torrent file
-    'category_id' => 39,                // The category ID
+    'category_id'  => 39,               // The category ID
 ];
 
-$data = Uploader::upload(API_KEY, $content);
+$data = Uploader::upload($apiKey, $content);
 ```
 
 ## Change log
