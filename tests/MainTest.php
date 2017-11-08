@@ -1,13 +1,14 @@
 <?php
 
-use pxgamer\WorldWideTorrents;
+namespace pxgamer\WorldWideTorrents;
+
 use PHPUnit\Framework\TestCase;
 
 class MainTest extends TestCase
 {
     public function testCanBeInitialised()
     {
-        $uploader = new WorldWideTorrents\Uploader();
-        $this->assertInstanceOf(WorldWideTorrents\Uploader::class, $uploader);
+        $uploader = new Uploader();
+        $this->assertInstanceOf(Uploader::class, $uploader);
     }
 }
